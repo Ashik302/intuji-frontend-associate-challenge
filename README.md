@@ -12,13 +12,18 @@ A modern **dashboard UI** featuring a **responsive sidebar** and **dynamic chart
 ---
 
 ## 💡 **Project Features:**
-- **Sidebar**: 
-  - Fixed navigation with icons and text.
-  - Collapses for mobile devices.
-- **Charts**: 
-  - Interactive data charts using **Chart.js**.
-- **Responsive Design**: 
-  - Fully responsive and optimized for desktop and mobile.
+- **Sidebar**: Fixed navigation with icons and text, collapsible on mobile.
+- **Charts**: Interactive charts using **Chart.js**.
+- **Responsive Design**: Fully responsive for mobile and desktop views.
+
+---
+
+## 🚀 **Development Process:**
+1. **Analysis**: Identified the need for a responsive layout with dynamic charts and navigation.
+2. **Skeleton**: Created a basic structure with a sidebar and content area.
+3. **Styling**: Styled the UI using **Tailwind CSS** for a clean, responsive design.
+4. **Charts**: Implemented **Chart.js** for data visualization with interactive line and bar charts.
+5. **Responsiveness**: Ensured full responsiveness across all devices using Tailwind's breakpoints.
 
 ---
 
@@ -26,5 +31,10 @@ A modern **dashboard UI** featuring a **responsive sidebar** and **dynamic chart
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/sidebar-dashboard.git
+   git clone https://github.com/Ashik302/intuji-frontend-associate-challenge.git
 
+
+📧 Contact
+Email: ashikkoirala68@gmail.com
+Phone: 9821991981
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/ashik-koirala-456359263/)
