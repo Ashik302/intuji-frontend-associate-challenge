@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings & Transactions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100  justify-center p-4">
+    <div class="w-11/12 m-auto">
+        <div class="lg:relative fixed top-0 left-0 w-full lg:w-auto h-16 lg:h-12 rounded-lg bg-white p-4 lg:mt-4 lg:rounded-3xl shadow-md flex items-center justify-between">
+            <button class="p-2 w-12 h-10 rounded-full bg-gray-200 flex items-center justify-center"><img src="assets/notificationIcon/notifi.png" alt="notification" class="w-8 h-8"></button>
+            <button class="p-2 w-12 h-10 rounded-full bg-gray-200 flex items-center justify-center"><img src="assets/notificationIcon/message.png" alt="message" class="w-8 h-8"></button>
+            <button class="p-2 12 12 rounded-full bg-gray-300"><img src="assets/image.png" alt="User" class="w-6 h-6 rounded-full"></button>
+            <div class="flex items-center gap-2">
+                <span class="font-semibold">Mirie Kiritani</span>
+                <img src="assets/notificationIcon/down.png" alt="Dropdown" class="w-6 h-6">
+            </div>
+        </div>
+
+        <!-- Saving Plan -->
+        <div class="bg-white p-4 rounded-lg shadow-md mt-10 lg:mt-10">
+            <div class="flex justify-between mb-4">
+                <h1 class="text-lg font-bold">Saving Plan</h1>
+                <a href="#" class="text-blue-600 text-sm">See All</a>
+            </div>
+
+            <div class="space-y-5">
+                <div>
+                    <div class="flex justify-between text-sm mb-1">
+                        <h2 class="font-bold">Bali Vacation</h2>
+                        <span class="text-gray-500">Target: Aug 25, 2022</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="text-lg font-bold">$1950.21</span>
+                        <span class="text-gray-500">/ $4000</span>
+                        <span class="font-bold text-blue-600">48%</span>
+                    </div>
+                    <div class="bg-gray-300 rounded-full h-2.5 overflow-hidden">
+                        <div class="bg-blue-600 h-full" style="width: 48%"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between text-sm mb-1">
+                        <h2 class="font-bold">New Gadget</h2>
+                        <span class="text-gray-500">Target: Aug 25, 2022</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="text-lg font-bold">$790.21</span>
+                        <span class="text-gray-500">/ $1000</span>
+                        <span class="font-bold text-red-500">79%</span>
+                    </div>
+                    <div class="bg-gray-300 rounded-full h-2.5 overflow-hidden">
+                        <div class="bg-red-500 h-full" style="width: 79%"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex justify-between text-sm mb-1">
+                        <h2 class="font-bold">Charity</h2>
+                        <span class="text-gray-500">Target: Aug 25, 2022</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="text-lg font-bold">$32,111</span>
+                        <span class="text-gray-500">/ $100,000</span>
+                        <span class="font-bold text-green-600">32%</span>
+                    </div>
+                    <div class="bg-gray-300 rounded-full h-2.5 overflow-hidden">
+                        <div class="bg-green-600 h-full" style="width: 32%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transactions Section -->
+        <section class="bg-white rounded-lg shadow-md p-4 lg:mt-10">
+            <header class="flex justify-between">
+                <h2 class="text-lg font-bold">Recent Transactions</h2>
+                <a href="#" class="text-blue-600 text-sm">See All</a>
+            </header>
+            <span class="underline"></span>
+            <ul class="mt-3 space-y-3">
+                <li class="flex justify-between items-center p-2 bg-gray-50 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 12 12 rounded-full bg-gray-300"><img src="assets/image.png" alt="User"
+                                class="w-6 h-6 rounded-full"></span>
+                        <div>
+                            <p class="font-semibold">Figma</p>
+                            <p class="text-xs text-gray-500">Aug 20, 2022</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-semibold">$100</p>
+                        <p class="text-xs text-green-500">Completed</p>
+                    </div>
+                </li>
+                <li class="flex justify-between items-center p-2 bg-gray-50 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 12 12 rounded-full bg-gray-300"><img src="assets/image.png" alt="User"
+                                class="w-6 h-6 rounded-full"></span>
+                        <div>
+                            <p class="font-semibold">YouTube</p>
+                            <p class="text-xs text-gray-500">Aug 20, 2022</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-semibold">$120</p>
+                        <p class="text-xs text-green-500">Completed</p>
+                    </div>
+                </li>
+                <li class="flex justify-between items-center p-2 bg-gray-50 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 12 12 rounded-full bg-gray-300"><img src="assets/image.png" alt="User"
+                                class="w-6 h-6 rounded-full"></span>
+                        <div>
+                            <p class="font-semibold">Spotify</p>
+                            <p class="text-xs text-gray-500">Aug 20, 2022</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-semibold">$15</p>
+                        <p class="text-xs text-green-500">Completed</p>
+                    </div>
+                </li>
+                <li class="flex justify-between items-center p-2 bg-gray-50 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 12 12 rounded-full bg-gray-300"><img src="assets/image.png" alt="User"
+                                class="w-6 h-6 rounded-full"></span>
+                        <div>
+                            <p class="font-semibold">Freepik</p>
+                            <p class="text-xs text-gray-500">Aug 20, 2022</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-semibold">$300</p>
+                        <p class="text-xs text-green-500">Completed</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>

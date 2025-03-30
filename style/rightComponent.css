@@ -1,0 +1,268 @@
+
+/*NOTIFICATION BAR OF THE RIGHT COMPONENT*/
+.notification-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.notification-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px; 
+    height: 38px; 
+    border-radius: 15px; 
+    border: #6f6f6f solid 1px;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+
+.notification-btn-active {
+    background-color: #8b8b8b;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 8px rgba(139, 139, 139, 0.5); 
+}
+
+
+.notification-btn img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/*USER NAME AND IMAGE OF NOTIFICTION BAR*/
+.user-info {
+    display: flex;
+}
+
+.user-name {
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user-icon {
+    color: #333;
+    font-size: 14px;
+}
+
+
+/*SAVING PLAN CONTAINER*/
+.saving-plan-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-top: 1rem;
+}
+
+
+.saving-plan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.saving-plan-header h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.see-all-link {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+
+.saving-plan-item {
+    margin-bottom: 20px;
+}
+
+
+.saving-plan-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.saving-plan-info h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.target-date {
+    font-size: 12px;
+    color: #777;
+}
+
+
+.saving-plan-progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.current-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.goal-amount {
+    font-size: 14px;
+    color: #777;
+}
+
+.progress-percentage {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.blue {
+    color: #007BFF;
+}
+
+.yellow {
+    color: #FFA500;
+}
+
+.green {
+    color: #28A745;
+}
+
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 8px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blue-fill {
+    background-color: #007BFF;
+}
+
+.yellow-fill {
+    background-color: #FFA500;
+}
+
+.green-fill {
+    background-color: #28A745;
+}
+
+/*TRANSECTION DETAILS CONTAINER*/
+.transaction-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-top: 1rem;
+}
+
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-header h2 {
+    font-size: 1rem; 
+    font-weight: bold;
+}
+
+.transaction-header a {
+    color: #2563eb;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.transaction-list {
+    list-style: none;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;  
+}
+
+.transaction-details {
+    display: flex;
+    gap: 12px; 
+}
+
+.transaction-details img {
+    width: 36px; 
+    height: 36px;
+    border-radius: 50%;
+}
+
+.transaction-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.transaction-date {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.transaction-status {
+    text-align: right;
+}
+
+.transaction-amount {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.transaction-completed {
+    font-size: 0.75rem;
+    color: #10b981;
+}
+
+.tran-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #bcbcbc;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tran-img img {
+    width: 20px; 
+    height: 20px;
+    object-fit: cover; 
+}
+
+
+.underline{
+    border-bottom:#616263 solid 1.5px;
+    margin-top: 15px
+}
+

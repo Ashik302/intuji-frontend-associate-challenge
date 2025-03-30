@@ -1,0 +1,22 @@
+[
+    {
+        "period": "Week 1",
+        "label1": 10000,
+        "label2": 7000
+    },
+    {
+        "period": "Week 2",
+        "label1": 12000,
+        "label2": 8500
+    },
+    {
+        "period": "Week 3",
+        "label1": 15000,
+        "label2": 9000
+    },
+    {
+        "period": "Week 4",
+        "label1": 18000,
+        "label2": 11000
+    }
+]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside id="sidebar"
+        class="fixed  top-0 left-0 bg-white p-5 h-screen transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out z-10 shadow-sm w-">
+        <div class="logo h-10 w-44 bg-gray-200 p-4 text-center rounded-lg mb-6 flex items-center justify-center">
+            <img src="assets/image.png" alt="Logo" class="h-8 w-8 rounded-full">
+        </div>
+
+        <!-- Navigation -->
+        <nav class="flex-grow overflow-y-auto">
+            <ul class="space-y-4">
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/dashboard.png" alt="Dashboard Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Dashboard</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/schedule.png" alt="Schedule Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Schedule</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/mail.png" alt="Message Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Message</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/analytics.png" alt="Analytics Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Analytics</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/team.png" alt="Team Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Team</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/profile.png" alt="Profile Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Profile</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/setting.png" alt="Settings Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Settings</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/help.png" alt="Help Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Help</span>
+                </li>
+                <li class="h-10 hover:bg-blue-100 p-3 rounded-lg flex items-center space-x-4 cursor-pointer">
+                    <img src="assets/sidebarIcon/logout.png" alt="Logout Icon" class="w-6 h-6">
+                    <span class="text-black px-3">Logout</span>
+                </li>
+            </ul>
+        </nav>
+        
+    </aside>
+
+
+
+</body>
+
+</html>

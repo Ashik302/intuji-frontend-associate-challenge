@@ -1,0 +1,144 @@
+
+/* USER SEARCH SECTION  */
+.user-section {
+    display: flex;
+}
+
+
+/*OVER4VIEW CONTAINER WTIH FOUR PARTS*/
+.overview-container {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: white solid 10px;
+   
+}
+
+
+
+.overview-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+   
+}
+
+.overview-box {
+    flex: 1;
+    margin: 2px;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-large-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.box-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.box-small-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.5rem;
+}
+
+.box-subtitle {
+    font-size: 0.875rem;
+    color: #607d8b;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.box-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.price-divider {
+   
+    border-top: 1px solid #e0e0e0;
+}
+
+.box-arrow {
+    font-size: 1.25rem;
+    color: #90a4ae;
+}
+
+.green-icon {
+    color: #4caf50;
+}
+
+#myChart {
+    width: 98% !important;
+    height: 400px !important;
+}
+
+
+.yellow-icon {
+    color: #ffeb3b;
+}
+
+.blue-icon {
+    color: #2196f3;
+}
+
+
+.underline{
+    border-bottom:#90a4ae solid 1.5px;
+    margin-top: 15px
+}
+
+
+/* ANALYTICS OR  GRAPH PORTION*/
+.analytics-container {
+
+   
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analytics-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.analytics-controls {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.analytics-select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+

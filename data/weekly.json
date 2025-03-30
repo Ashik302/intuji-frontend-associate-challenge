@@ -1,0 +1,37 @@
+[
+    {
+        "period": "Monday",
+        "label1": 1200,
+        "label2": 800
+    },
+    {
+        "period": "Tuesday",
+        "label1": 1500,
+        "label2": 900
+    },
+    {
+        "period": "Wednesday",
+        "label1": 1800,
+        "label2": 950
+    },
+    {
+        "period": "Thursday",
+        "label1": 2000,
+        "label2": 1100
+    },
+    {
+        "period": "Friday",
+        "label1": 2500,
+        "label2": 1300
+    },
+    {
+        "period": "Saturday",
+        "label1": 3000,
+        "label2": 1500
+    },
+    {
+        "period": "Sunday",
+        "label1": 2800,
+        "label2": 1400
+    }
+]

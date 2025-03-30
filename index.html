@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="stylesheet" href="style/rightComponent.css">
+    <link rel="stylesheet" href="style/middleComponent.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+</head>
+
+<body>
+    <div class="flex flex-wrap h-screen" id="main-container">
+        <!-- Sidebar Component -->
+        <div id="sidebar-component" class="w-1/6 bg-gray-200 text-white sticky top-0"></div>
+
+        <!-- Middle Part Component -->
+        <div id="middle-component"
+            class="flex-1 w-full left-2 lg:max-w-3/4 bg-gray-200 border-2 p-4 min-h-[400px] flex justify-center items-center">
+        </div>
+        <!-- Right Component -->
+        <div id="right-component" class="w-full lg:w-1/4 bg-gray-200 p-1 border-2"></div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
