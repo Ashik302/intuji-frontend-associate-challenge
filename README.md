@@ -10,9 +10,16 @@ A modern **dashboard UI** featuring a **responsive sidebar** and **dynamic chart
 - **Resources**: StackOverflow, ChatGPT
 
 ---
+## 📂 **File Structure**:
+- **index.html**: The root of the project, containing the layout and necessary links to the stylesheets and scripts.
+- **index.js**: The brain of the project
+- **assets**: Contains the essential icons and images
+- **skeleton**: Includes the HTML files
+- **data**: JSON data for weekly and monthly details
+- **style**: Styling components
 
 ## 💡 **Project Features:**
-- **Sidebar**: Fixed navigation with icons and text, collapsible on mobile.
+- **Sidebar**: Fixed navigation with icons and text, which is collapsible on mobile.
 - **Charts**: Interactive charts using **Chart.js**.
 - **Responsive Design**: Fully responsive for mobile and desktop views.
 
